@@ -1,0 +1,123 @@
+/* Style global pour le corps du document */
+body {
+    font-family: Arial, sans-serif; /* Police de caractère */
+    margin: 0; /* Marge de 0 autour du corps */
+    padding: 0; /* Pas de padding */
+    background-color: white; /* Couleur de fond  */
+    color: #333; /* Couleur de texte gris foncé */
+}
+
+/* Style pour le conteneur principal */
+.main {
+    width: 80%; /* Largeur de 80% du conteneur */
+    margin: 0 auto; /* Centrer horizontalement */
+    padding: 20px; /* Padding de 20px */
+    background-color: white; /* Couleur de fond blanche */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre portée légère */
+    min-height: 500px ;
+}
+
+/* Style pour les titres h1 et h2 */
+h1 {
+    color: green;
+    text-align: center ;
+}
+h2 {
+    color: #0056b3; /* Couleur bleue */
+}
+
+/* Style pour les paragraphes */
+p {
+    line-height: 1.6; /* Hauteur de ligne de 1.6 */
+}
+
+/* Style spécifique pour le paragraphe mis en valeur */
+.grid-container {
+    color: black; /* Couleur de texte verte */
+    grid-template-columns: 50% 50% ;
+    display: grid;
+}
+.grid-container messages{
+    text-align: left ;
+
+}
+
+/* Style pour les images */
+.grid img {
+    width: 80%; /* Largeur maximale de 100% */
+    height: auto; /* Hauteur automatique pour garder les proportions */
+    display: block; /* Affichage en bloc */
+    margin: 20px auto ; /* Marge verticale de 20px */
+}
+ text {
+    color: black;
+
+}
+
+/* Style pour les blocs de citation */
+.testimonials blockquote {
+    margin: 20px 0; /* Marge verticale de 20px */
+    padding: 5px 10px; /* Padding de 10px en haut et en bas, 20px à gauche et à droite */
+    background-color: #f9f9f9; /* Couleur de fond gris très clair */
+}
+
+/* Style pour le texte des citations */
+.testimonials blockquote p {
+    margin: 0; /* Pas de marge */
+}
+
+/* Style pour la section de contacts */
+.contacts {
+    margin-top: 20px; /* Marge en haut de 20px */
+}
+
+/* Style pour chaque contact individuel */
+.contact {
+    margin-bottom: 20px; /* Marge en bas de 20px */
+}
+
+/* Style pour les paragraphes de contact */
+.contact p {
+    margin: 5px 0; /* Marge de 5px en haut et en bas */
+}
+
+/* Style pour les liens dans les contacts */
+.contact a {
+    color: #0056b3; /* Couleur de lien bleue */
+    text-decoration: none; /* Pas de soulignement */
+}
+
+/* Style pour les liens au survol */
+.contact a:hover {
+    text-decoration: none; /* Soulignement au survol */
+}
+
+/* Style pour le tableau */
+table {
+    width: 30%; /* Largeur de 100% */
+    border-collapse: collapse; /* Fusionner les bordures */
+    margin-top: 20px; /* Marge en haut de 20px */
+}
+
+/* Style pour les cellules du tableau */
+th, td {
+    padding: 10px; /* Padding de 10px */
+    border: 1px solid black; /* Bordure noire */
+    text-align: center; /* Alignement au centre */
+}
+
+/* Style pour les en-têtes du tableau */
+th {
+    background-color: white; /* Couleur de fond blanche */
+    color: red; /* Couleur de texte rouge */
+}
+
+/* Style pour les lignes paires du tableau */
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Couleur de fond blanche*/
+}
+
+/* Style pour les lignes au survol */
+tr:hover {
+    background-color: #f1f1f1; /* Couleur de fond gris clair */
+}
